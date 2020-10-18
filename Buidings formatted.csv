@@ -413,7 +413,6 @@ Census year,Construction year,Number of floors (above ground),Predominant space 
 2017,,1,House/Townhouse,144.9304,-37.7985,-37.79848123,144.9304336
 2017,1990,2,Workshop/Studio,144.9352,-37.7905,-37.79045307,144.9351916
 2017,,3,Residential Apartment,144.9799,-37.836,-37.83601873,144.9799486
-2017,,1,Equipment Installation,,,#VALUE!,#VALUE!
 2017,,2,House/Townhouse,144.9741,-37.7951,-37.79514132,144.9741367
 2017,2003,32,Residential Apartment,144.9658,-37.8228,-37.82280289,144.9658274
 2017,,1,House/Townhouse,144.9435,-37.806,-37.80597892,144.9435352
@@ -13981,3 +13980,4 @@ Census year,Construction year,Number of floors (above ground),Predominant space 
 2017,,1,House/Townhouse,144.9826,-37.8354,-37.83539891,144.9825597
 2017,,1,House/Townhouse,144.9739,-37.796,-37.79595429,144.9739435
 2017,,2,House/Townhouse,144.9288,-37.7963,-37.79625136,144.9287814
+,,,,,,,
