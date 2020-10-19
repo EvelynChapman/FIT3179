@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 800,
+  "height": 600,
+  "title": "Buildings in melbourne city",
+  "projection": {"type": "mercator"},
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Municipal%20boundary.json",
+        "format": {"type": "topojson", "feature": "Municipal boundary"}
+      },
+      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Buidings%20formatted.csv"
+      },
+      "mark": {"type": "circle", "size": "10", "tooltip": {"content": "x"}},
+      "encoding": {
+        "longitude": {"field": "x", "type": "quantitative"},
+        "latitude": {"field": "y", "type": "quantitative"},
+        "color": {"field": "Predominant space use"}
+      }
+    }
+  ],
+  "config": {}
+}
