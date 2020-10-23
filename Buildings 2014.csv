@@ -1,4 +1,4 @@
-Census year,Property ID,Base property ID,Street address,CLUE small area,Construction year,Predominant space use,x coordinate,y coordinate
+Census year,Property ID,Base property ID,Street address,CLUE small area,Construction year,Predominant_space_use,x coordinate,y coordinate
 2014,615617,615617,10 Collett Street,Kensington,1900,Residential,144.9335,-37.7892
 2014,617835,617835,1 Watsons Walk,Kensington,1989,Residential,144.925,-37.7908
 2014,106111,106111,197 Lygon Street,Carlton,1890,Retail,144.9666,-37.801
