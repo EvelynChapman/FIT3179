@@ -26,7 +26,7 @@
               "url": "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Buildings%202014.csv"
             },
             "key": "Property ID",
-            "fields": ["Predominant space use", "Street address"]
+            "fields": ["Predominant_space_use", "Street address"]
           },
           "default": "Unknown"
         }
@@ -34,7 +34,7 @@
       "mark": {"type": "geoshape"},
       "encoding": {
         "color": {
-          "field": "Predominant space use",
+          "field": "Predominant_space_use",
           "scale": {
             "range": [
               "#7fc97f",
@@ -48,7 +48,7 @@
           }
         },
         "tooltip": [
-          {"field": "Predominant space use"},
+          {"field": "Predominant_space_use"},
           {"field": "Street address"}
         ]
       }
