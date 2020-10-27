@@ -1,0 +1,57 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 500,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Buildings%202014.csv"
+  },
+  "params": [
+    {
+      "name": "Usage_Type",
+      "bind": {
+        "input": "select",
+        "options": [null, "Public", "Residential", "Retail", "Commercial"]
+      }
+    }
+  ],
+  "encoding": {
+    "x": {
+      "bin": {"step": 0.005, "extent": [144.9, 145]},
+      "field": "x coordinate",
+      "type": "quantitative"
+    },
+    "y": {
+      "bin": {"step": 0.005, "extent": [-37.85, -37.775]},
+      "field": "y coordinate",
+      "type": "quantitative"
+    }
+  },
+  "transform": [
+    {
+      "filter": "Usage_Type == null || datum.Predominant_space_use == Usage_Type"
+    }
+  ],
+  "layer": [
+    {
+      "mark": "rect",
+      "encoding": {
+        "color": {
+          "aggregate": "sum",
+          "field": "floors",
+          "type": "quantitative",
+          "scale": {"type": "sqrt"}
+        },
+        "tooltip": [
+          {"aggregate": "sum", "field": "floors", "type": "quantitative"},
+          {"aggregate": "count"},
+          {"aggregate": "sum", "field": "floors", "type": "quantitative"}
+        ]
+      }
+    },
+    {
+      "mark": "text",
+      "encoding": {"text": {"aggregate": "count", "type": "quantitative"}}
+    }
+  ],
+  "config": {"view": {"stroke": "transparent"}}
+}
