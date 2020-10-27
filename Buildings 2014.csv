@@ -311,7 +311,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,110215,110215,58 Wolseley Parade,Kensington,,Residential,144.9285,-37.7964,1
 2014,578365,578365,76 Courtney Street,North Melbourne,2002,Residential,144.9525,-37.8004,2
 2014,107398,107398,84 Park Street,South Yarra,,Residential,144.9825,-37.8356,2
-2014,629900,629900,175 Wellington Parade,East Melbourne,,Transport,144.984,-37.8165,1
+2014,629900,629900,175 Wellington Parade,East Melbourne,,Public,144.984,-37.8165,1
 2014,558545,558545,75 Arden Street,North Melbourne,1920,Retail,144.9482,-37.801,2
 2014,615391,615391,11 Robertson Street,Kensington,1900,Residential,144.9322,-37.7927,1
 2014,110220,110220,46-48 Wolseley Parade,Kensington,,Residential,144.9288,-37.7963,2
@@ -672,13 +672,13 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,111243,111243,23 Baulderstone Walk,Kensington,,Residential,144.9215,-37.7956,3
 2014,108226,108226,192-198 Rathdowne Street,Carlton,1930,Residential,144.9714,-37.7943,3
 2014,102885,102885,456-474 Dryburgh Street,North Melbourne,1907,Public,144.9455,-37.7941,2
-2014,106337,106337,36-58 Macaulay Road,North Melbourne,1890,Transport,144.943,-37.7986,2
+2014,106337,106337,36-58 Macaulay Road,North Melbourne,1890,Public,144.943,-37.7986,2
 2014,106422,106422,34-40 Manningham Street,Parkville,1930,Residential,144.9425,-37.7875,2
 2014,106486,106486,70 Mason Street,South Yarra,,Residential,144.9812,-37.8359,1
 2014,105971,105971,18-20 Little Collins Street,Melbourne (CBD),1900,Commercial,144.9727,-37.8123,4
 2014,103049,103049,3 Elgin Place,Carlton,,Residential,144.9652,-37.7965,2
 2014,111059,106250,126 Lygon Street,Carlton,1890,Public,144.9667,-37.8044,3
-2014,109584,109584,82-84 Vale Street,East Melbourne,,Unoccupied - Under Renovation,144.9879,-37.8187,2
+2014,109584,109584,82-84 Vale Street,East Melbourne,,Unoccupied,144.9879,-37.8187,2
 2014,560379,560379,36 Pitt Street,Carlton,,Residential,144.972,-37.7956,2
 2014,104413,104413,42 Gower Street,Kensington,,Residential,144.9277,-37.7955,1
 2014,109619,109619,524 Victoria Parade,East Melbourne,1890,Residential,144.9887,-37.81,2
@@ -958,7 +958,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,111066,106250,110 Lygon Street,Carlton,1890,Residential,144.9667,-37.8044,3
 2014,109993,109993,178-226 Wellington Parade,East Melbourne,1967,Commercial,144.9835,-37.8158,20
 2014,108863,108863,503 Spencer Street,West Melbourne (Residential),1910,Retail,144.9487,-37.8089,1
-2014,506301,506301,9 Cobden Street,North Melbourne,1910,Unoccupied - Under Renovation,144.9569,-37.8054,1
+2014,506301,506301,9 Cobden Street,North Melbourne,1910,Unoccupied,144.9569,-37.8054,1
 2014,615521,615521,92 McConnell Street,Kensington,1900,Residential,144.9286,-37.7929,1
 2014,520598,520598,232 Little Bourke Street,Melbourne (CBD),1895,Retail,144.9659,-37.8122,2
 2014,105762,105762,92-106 Lonsdale Street,Melbourne (CBD),1982,Commercial,144.9691,-37.8099,17
@@ -1083,7 +1083,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,613010,613010,23 Franklin Place,West Melbourne (Residential),2009,Residential,144.9493,-37.812,3
 2014,617595,617595,34 Newton Street,Kensington,,Residential,144.9225,-37.7964,2
 2014,108619,108619,45 Arnold Street,South Yarra,1975,Public,144.9759,-37.8353,2
-2014,111494,111494,300-372 Footscray Road,West Melbourne (Industrial),,Transport,144.9402,-37.8106,2
+2014,111494,111494,300-372 Footscray Road,West Melbourne (Industrial),,Public,144.9402,-37.8106,2
 2014,107845,107845,16 Purcell Street,North Melbourne,,Residential,144.949,-37.8021,3
 2014,108443,108443,42-50 Rosslyn Street,West Melbourne (Residential),2011,Residential,144.9526,-37.8074,5
 2014,615200,615200,49 Eastwood Street,Kensington,1910,Residential,144.9303,-37.7903,1
@@ -1486,7 +1486,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,100252,100252,33-41 Agnes Street,East Melbourne,,Commercial,144.9797,-37.8175,4
 2014,105305,105305,187 King Street,Melbourne (CBD),1920,Public,144.9551,-37.8158,2
 2014,102683,102683,291 Drummond Street,Carlton,,Residential,144.9684,-37.7991,2
-2014,105864,105864,518-532 Little Bourke Street,Melbourne (CBD),1974,Unoccupied - Under Renovation,144.9568,-37.8147,19
+2014,105864,105864,518-532 Little Bourke Street,Melbourne (CBD),1974,Unoccupied,144.9568,-37.8147,19
 2014,111291,111291,331-337 Lorimer Street,Port Melbourne,1999,Commercial,144.9086,-37.823,2
 2014,107526,107526,180 Peel Street,North Melbourne,,Residential,144.9568,-37.8035,2
 2014,101776,101776,4 Carroll Street,North Melbourne,,Residential,144.946,-37.796,1
@@ -2133,7 +2133,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,102653,102653,161 Drummond Street,Carlton,,Residential,144.9678,-37.8026,2
 2014,526395,526395,32 Punch Lane,Melbourne (CBD),1959,Residential,144.971,-37.8101,2
 2014,106060,106060,12 Little Lothian Street North,North Melbourne,1980,Unoccupied,144.9452,-37.8022,1
-2014,109290,109290,237 Swanston Street,Melbourne (CBD),1910,Unoccupied - Under Renovation,144.9648,-37.8124,3
+2014,109290,109290,237 Swanston Street,Melbourne (CBD),1910,Unoccupied,144.9648,-37.8124,3
 2014,106586,106586,57 Miller Street,West Melbourne (Residential),,Residential,144.9458,-37.806,1
 2014,104980,104980,152-156 Hotham Street,East Melbourne,1870,Public,144.9851,-37.8138,2
 2014,100843,100843,34-40 Barry Street,Carlton,1987,Commercial,144.9601,-37.8031,4
@@ -2239,7 +2239,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,103312,103312,222-260 Elizabeth Street,Melbourne (CBD),1976,Residential,144.9629,-37.8127,27
 2014,102844,102844,415-417 Dryburgh Street,North Melbourne,,Residential,144.9444,-37.7957,3
 2014,111209,111207,47-51 Little Palmerston Street,Carlton,1869,Residential,144.9686,-37.7968,2
-2014,111342,111342,Poplar Road,Parkville,1920,Transport,144.9524,-37.7812,1
+2014,111342,111342,Poplar Road,Parkville,1920,Public,144.9524,-37.7812,1
 2014,108245,108245,120 Rathdowne Street,Carlton,,Residential,144.9709,-37.7968,2
 2014,106195,106195,364 Lygon Street,Carlton,1870,Retail,144.9676,-37.7983,1
 2014,101712,101712,98 Carlton Street,Carlton,,Residential,144.9708,-37.8006,2
@@ -2297,7 +2297,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,614600,614600,33 McCracken Street,Kensington,1900,Residential,144.928,-37.791,1
 2014,105484,105484,296-310 La Trobe Street,Melbourne (CBD),1991,Commercial,144.9604,-37.81,35
 2014,100677,100677,17 Bangalore Street,Kensington,,Residential,144.9257,-37.7937,1
-2014,110095,101155,555 Bourke Street,Melbourne (CBD),1969,Unoccupied - Under Renovation,144.9578,-37.8164,9
+2014,110095,101155,555 Bourke Street,Melbourne (CBD),1969,Unoccupied,144.9578,-37.8164,9
 2014,109317,109317,427-433 Swanston Street,Melbourne (CBD),1887,Public,144.9629,-37.8085,3
 2014,617668,617668,176 Boundary Road,North Melbourne,1900,Residential,144.9402,-37.7898,1
 2014,617937,617937,26 Export Lane,Kensington,1990,Residential,144.9249,-37.7899,2
@@ -2331,7 +2331,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,105312,105312,221-223 King Street,Melbourne (CBD),1920,Retail,144.9548,-37.8151,2
 2014,108888,108888,669-671 Spencer Street,West Melbourne (Residential),1920,Commercial,144.9442,-37.8063,2
 2014,111379,111379,83-85 Munster Terrace,North Melbourne,1990,Unoccupied,144.9424,-37.8015,1
-2014,103986,103986,556-560 Flinders Street,Melbourne (CBD),1862,Unoccupied - Under Renovation,144.9558,-37.8206,2
+2014,103986,103986,556-560 Flinders Street,Melbourne (CBD),1862,Unoccupied,144.9558,-37.8206,2
 2014,105961,105961,304-306 Little Collins Street,Melbourne (CBD),1938,Residential,144.9643,-37.8147,8
 2014,106784,106784,16 Morrah Street,Parkville,,Residential,144.9572,-37.7955,2
 2014,621413,621413,206-216 A'Beckett Street,Melbourne (CBD),2011,Commercial,144.9571,-37.8101,25
@@ -2351,7 +2351,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,108327,108327,20 The Ridgeway,Kensington,,Residential,144.9258,-37.794,1
 2014,615412,615412,21 Collett Street,Kensington,1900,Residential,144.9339,-37.7895,1
 2014,614971,614971,1 Robertson Street,Kensington,1975,Residential,144.9318,-37.7927,1
-2014,103065,103065,47-49 Elgin Street,Carlton,1935,Unoccupied - Under Renovation,144.9732,-37.798,2
+2014,103065,103065,47-49 Elgin Street,Carlton,1935,Unoccupied,144.9732,-37.798,2
 2014,100110,100108,384 Abbotsford Street,North Melbourne,,Residential,144.9468,-37.7975,2
 2014,108405,108405,65 Rosslyn Street,West Melbourne (Residential),1900,Residential,144.9525,-37.808,1
 2014,101457,101457,198 Canning Street,Carlton,,Residential,144.9739,-37.7938,2
@@ -2376,7 +2376,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,109519,109519,90W-92W Toorak Road,South Yarra,,Residential,144.9814,-37.8374,3
 2014,101002,101002,4 Belmont Road,Kensington,,Residential,144.9236,-37.7929,1
 2014,614614,614614,53 McCracken Street,Kensington,1910,Residential,144.9281,-37.7918,2
-2014,110109,110109,289-293 William Street,Melbourne (CBD),1985,Transport,144.9564,-37.8123,1
+2014,110109,110109,289-293 William Street,Melbourne (CBD),1985,Public,144.9564,-37.8123,1
 2014,100266,100266,35-37 Airlie Street,South Yarra,2002,Residential,144.9867,-37.832,2
 2014,108896,108896,703 Spencer Street,West Melbourne (Residential),,Residential,144.9434,-37.8058,2
 2014,632411,103909,30 Flemington Road,Parkville,1960,Public,144.9539,-37.7975,3
@@ -2437,7 +2437,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,105595,105595,70-74 Leopold Street,South Yarra,1940,Residential,144.9832,-37.8362,2
 2014,102737,102737,250 Drummond Street,Carlton,,Residential,144.9688,-37.8002,2
 2014,101428,101428,153-157 Canning Street,Carlton,,Residential,144.9731,-37.7949,1
-2014,111452,103807,Wellington Parade,East Melbourne,,Unoccupied - Under Renovation,144.9805,-37.813,1
+2014,111452,103807,Wellington Parade,East Melbourne,,Unoccupied,144.9805,-37.813,1
 2014,100240,100240,148 Adderley Street,West Melbourne (Residential),,Residential,144.9472,-37.8097,2
 2014,100371,100371,100-106 Albert Street,East Melbourne,,Residential,144.9877,-37.8105,4
 2014,105048,105048,60-62 Howlett Street,Kensington,,Residential,144.9213,-37.7906,2
@@ -2687,7 +2687,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,109677,109677,13A Victoria Street,Melbourne (CBD),1890,Public,144.968,-37.8076,2
 2014,102356,102356,156 Curzon Street,North Melbourne,,Residential,144.9491,-37.7991,1
 2014,614835,614835,53-55 McConnell Street,Kensington,1915,Residential,144.929,-37.7917,1
-2014,573776,573776,2480-2500 Rosslyn Street,West Melbourne (Residential),,Unoccupied - Under Renovation,144.9466,-37.8102,3
+2014,573776,573776,2480-2500 Rosslyn Street,West Melbourne (Residential),,Unoccupied,144.9466,-37.8102,3
 2014,110453,110453,29 Coventry Street,Southbank,1995,Commercial,144.9699,-37.8294,4
 2014,520314,520314,42 Lothian Street,North Melbourne,1901,Residential,144.9448,-37.8023,2
 2014,101373,101373,50 Canning Street,North Melbourne,,Residential,144.942,-37.7956,1
@@ -2738,7 +2738,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,108642,108642,497-503 St Kilda Road,Melbourne (Remainder),1974,Commercial,144.9791,-37.8433,19
 2014,103355,103355,58 Elm Street,North Melbourne,,Residential,144.9463,-37.8035,2
 2014,104795,104795,25 Henry Street,Kensington,,Residential,144.9279,-37.7951,1
-2014,100062,100062,433 Abbotsford Street,North Melbourne,1890,Unoccupied - Under Renovation,144.9463,-37.7961,2
+2014,100062,100062,433 Abbotsford Street,North Melbourne,1890,Unoccupied,144.9463,-37.7961,2
 2014,105610,105610,39-43 Leveson Street,North Melbourne,,Commercial,144.9505,-37.8039,2
 2014,101710,101710,102 Carlton Street,Carlton,,Residential,144.9706,-37.8006,2
 2014,101352,101352,19 Canning Street,North Melbourne,,Residential,144.9456,-37.7967,1
@@ -2771,7 +2771,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,616739,616739,185 Melrose Street,North Melbourne,1900,Residential,144.9426,-37.7905,2
 2014,102971,102971,56 Dudley Street,West Melbourne (Residential),1901,Unoccupied,144.9534,-37.8087,3
 2014,111373,111373,34-52 Kavanagh Street,Southbank,2000,Residential,144.9641,-37.8238,20
-2014,580094,580094,1 Errol Place,North Melbourne,2002,Unoccupied - Under Renovation,144.949,-37.8046,1
+2014,580094,580094,1 Errol Place,North Melbourne,2002,Unoccupied,144.949,-37.8046,1
 2014,106369,106369,41-45 MacKenzie Street,Melbourne (CBD),1967,Unoccupied,144.9666,-37.8079,4
 2014,105197,105197,78 Kay Street,Carlton,,Residential,144.9723,-37.7949,2
 2014,110405,110405,21-55 Kavanagh Street,Southbank,1993,Residential,144.9653,-37.8239,4
@@ -2847,7 +2847,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,103919,103919,75-77 Flinders Lane,Melbourne (CBD),1925,Commercial,144.9722,-37.8151,6
 2014,616009,616009,484-486 Macaulay Road,Kensington,1960,Retail,144.9299,-37.7942,2
 2014,107301,107301,171 Park Drive,Parkville,,Residential,144.9558,-37.7938,2
-2014,111333,111333,189 Railway Place,West Melbourne (Industrial),1886,Transport,144.9419,-37.8071,1
+2014,111333,111333,189 Railway Place,West Melbourne (Industrial),1886,Public,144.9419,-37.8071,1
 2014,106415,106415,72-78 Manningham Street,Parkville,,Residential,144.942,-37.7858,2
 2014,103631,103631,17-19 Exploration Lane,Melbourne (CBD),2009,Commercial,144.9681,-37.809,14
 2014,105006,105006,20-22 Hotham Street,East Melbourne,,Residential,144.9898,-37.8142,2
@@ -2904,7 +2904,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,107008,107008,15 Ormond Street,Kensington,,Residential,144.9304,-37.7971,2
 2014,101078,101078,36-38 Berry Street,East Melbourne,,Residential,144.989,-37.8184,2
 2014,104620,104620,45 Hardiman Street,Kensington,,Residential,144.9332,-37.7954,1
-2014,631188,631188,Lloyd Street,West Melbourne (Industrial),2010,Transport,144.9302,-37.8016,1
+2014,631188,631188,Lloyd Street,West Melbourne (Industrial),2010,Public,144.9302,-37.8016,1
 2014,603953,603953,7 Cairncross Lane,Kensington,2006,Residential,144.9244,-37.7953,2
 2014,614667,614667,75 Smith Street,Kensington,1900,Residential,144.9351,-37.7915,1
 2014,106119,106119,223 Lygon Street,Carlton,1881,Retail,144.9667,-37.8001,2
@@ -3116,7 +3116,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,619506,619506,18 Astor Place,Carlton,,Residential,144.9684,-37.7967,1
 2014,631882,631882,44 Cornish Lane,Kensington,2011,Residential,144.9206,-37.793,2
 2014,106331,106331,539 Macaulay Road,Kensington,,Residential,144.9281,-37.7944,2
-2014,108981,108981,87-91 Spring Street,Melbourne (CBD),1983,Transport,144.9734,-37.8128,1
+2014,108981,108981,87-91 Spring Street,Melbourne (CBD),1983,Public,144.9734,-37.8128,1
 2014,110410,110410,121-125 Kavanagh Street,Southbank,2010,Public,144.9623,-37.8264,1
 2014,627719,627719,37 South Wharf Drive,Docklands,2011,Residential,144.9391,-37.823,3
 2014,104504,104504,33 Grey Street,East Melbourne,,Residential,144.9883,-37.8124,2
@@ -3335,7 +3335,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,100670,100670,2-4 Baillie Street,North Melbourne,1930,Residential,144.9477,-37.8013,3
 2014,110053,110053,61 Westbourne Road,Kensington,,Residential,144.922,-37.7935,1
 2014,106585,106585,55 Miller Street,West Melbourne (Residential),,Residential,144.9459,-37.806,1
-2014,100856,100856,66-68 Batman Street,West Melbourne (Residential),1967,Transport,144.9508,-37.8106,2
+2014,100856,100856,66-68 Batman Street,West Melbourne (Residential),1967,Public,144.9508,-37.8106,2
 2014,573408,573408,17-21 Degraves Street,Melbourne (CBD),1900,Public,144.9656,-37.8173,8
 2014,110977,110977,17 Matthews Mews,Kensington,,Residential,144.9209,-37.7949,2
 2014,108376,108376,132-134 Roden Street,West Melbourne (Residential),,Residential,144.9472,-37.8079,2
@@ -3897,12 +3897,12 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,102369,102369,100-110 Curzon Street,North Melbourne,,Residential,144.9489,-37.8016,2
 2014,614978,614978,55 Eastwood Street,Kensington,1980,Residential,144.9303,-37.7907,2
 2014,556142,556142,68-70 Fairbairn Drive,Kensington,1999,Residential,144.9194,-37.7968,2
-2014,105919,105919,267 Little Collins Street,Melbourne (CBD),1920,Unoccupied - Under Renovation,144.9656,-37.8148,3
+2014,105919,105919,267 Little Collins Street,Melbourne (CBD),1920,Unoccupied,144.9656,-37.8148,3
 2014,105736,105736,410-412 Lonsdale Street,Melbourne (CBD),1924,Retail,144.9602,-37.8126,5
 2014,617771,617771,18 Little Bendall Street,Kensington,1997,Residential,144.9236,-37.789,2
 2014,110634,110634,26-40 Moray Street,Southbank,1990,Public,144.9602,-37.8272,2
 2014,614832,614832,85 Rankins Road,Kensington,1910,Residential,144.9319,-37.7911,1
-2014,109718,109718,355 Victoria Street,West Melbourne (Residential),1930,Unoccupied - Under Renovation,144.9497,-37.8054,2
+2014,109718,109718,355 Victoria Street,West Melbourne (Residential),1930,Unoccupied,144.9497,-37.8054,2
 2014,110358,110358,77-79 City Road,Southbank,1933,Commercial,144.9655,-37.8224,1
 2014,624196,624196,26 Mark Street,North Melbourne,2010,Residential,144.941,-37.7937,3
 2014,105782,105782,73-75 Lothian Street,North Melbourne,,Residential,144.9445,-37.8016,2
@@ -4058,7 +4058,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,100006,100006,67-73 Abbotsford Street,West Melbourne (Residential),1970,Retail,144.9443,-37.8064,1
 2014,111516,111516,9 Kelvin Place,Carlton,,Residential,144.9643,-37.8038,2
 2014,615421,615421,54-60 Smith Street,Kensington,1975,Residential,144.9342,-37.7919,1
-2014,630022,630022,Epsom Road,Kensington,,Transport,144.9151,-37.7834,1
+2014,630022,630022,Epsom Road,Kensington,,Public,144.9151,-37.7834,1
 2014,107371,107371,59 Park Street,South Yarra,,Residential,144.9817,-37.8361,2
 2014,106937,106937,85 Nicholson Street,Carlton,,Residential,144.9744,-37.7988,2
 2014,614964,614964,34 Parsons Street,Kensington,1890,Residential,144.9331,-37.7902,2
@@ -4231,7 +4231,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,101833,101833,103-107 Chapman Street,North Melbourne,,Residential,144.9471,-37.7956,1
 2014,108244,108244,124 Rathdowne Street,Carlton,,Residential,144.9709,-37.7967,2
 2014,110307,110307,15 Sherwin Street,Kensington,,Residential,144.9216,-37.7925,2
-2014,110706,110706,602-606 Little Bourke Street,Melbourne (CBD),1952,Unoccupied - Under Renovation,144.9544,-37.8154,6
+2014,110706,110706,602-606 Little Bourke Street,Melbourne (CBD),1952,Unoccupied,144.9544,-37.8154,6
 2014,101945,101945,173-185 Chetwynd Street,North Melbourne,,Residential,144.9526,-37.8016,3
 2014,109207,109207,3 Story Street,Parkville,,Residential,144.957,-37.7967,1
 2014,105118,105113,Boathouse Drive,Melbourne (Remainder),,Public,144.9707,-37.8199,2
@@ -4511,7 +4511,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,562458,562458,23-25 Wakefield Street,Kensington,,Residential,144.9209,-37.7973,2
 2014,103304,103304,398-406 Elizabeth Street,Melbourne (CBD),1934,Public,144.9613,-37.8093,1
 2014,105398,105398,34 King Street,Melbourne (CBD),1973,Public,144.9574,-37.8194,1
-2014,108238,108238,154-156 Rathdowne Street,Carlton,1920,Unoccupied - Under Renovation,144.9711,-37.7959,2
+2014,108238,108238,154-156 Rathdowne Street,Carlton,1920,Unoccupied,144.9711,-37.7959,2
 2014,104006,104006,318-332 Flinders Street,Melbourne (CBD),1913,Commercial,144.9636,-37.8182,10
 2014,615854,615854,12 Gordon Crescent,Kensington,1900,Residential,144.927,-37.7908,1
 2014,103042,103042,157 Eastwood Street,Kensington,,Residential,144.9317,-37.7958,1
@@ -4686,7 +4686,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,107664,107664,126-128 Powlett Street,East Melbourne,,Residential,144.9863,-37.8126,2
 2014,102862,102862,467-471 Dryburgh Street,North Melbourne,,Residential,144.9447,-37.7941,3
 2014,562461,562461,17 Wakefield Street,Kensington,2000,Residential,144.921,-37.7972,2
-2014,103216,103216,284-294 La Trobe Street,Melbourne (CBD),1926,Unoccupied - Under Renovation,144.9608,-37.81,7
+2014,103216,103216,284-294 La Trobe Street,Melbourne (CBD),1926,Unoccupied,144.9608,-37.81,7
 2014,556329,556329,25-27 Merino Mews,Kensington,,Residential,144.9176,-37.7935,2
 2014,615221,615221,3-11A Mulgrave Street,Kensington,1990,Residential,144.9307,-37.7905,2
 2014,101720,101720,78-80 Carlton Street,Carlton,,Residential,144.9715,-37.8007,2
@@ -4864,7 +4864,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,565502,565502,84-86 Mercantile Parade,Kensington,2003,Residential,144.9213,-37.797,3
 2014,107376,107376,79-81 Park Street,South Yarra,,Residential,144.9819,-37.8356,3
 2014,557129,101779,10 St Andrews Place,East Melbourne,1999,Commercial,144.9772,-37.8115,7
-2014,101127,101127,143-153 Russell Street,Melbourne (CBD),1923,Unoccupied - Under Renovation,144.968,-37.8131,6
+2014,101127,101127,143-153 Russell Street,Melbourne (CBD),1923,Unoccupied,144.968,-37.8131,6
 2014,106147,106147,315-317 Lygon Street,Carlton,1985,Retail,144.9671,-37.7979,2
 2014,108447,108447,5 Royal Parade,Parkville,,Residential,144.9574,-37.7968,2
 2014,107622,107622,21-25 Powlett Street,East Melbourne,,Residential,144.9849,-37.8157,4
@@ -5168,7 +5168,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,104169,104169,98 Gatehouse Street,Parkville,1887,Residential,144.9541,-37.7947,2
 2014,105519,105519,148 Leicester Street,Carlton,,Residential,144.9609,-37.8027,2
 2014,102448,102448,35 Derby Street,Kensington,,Residential,144.9287,-37.7972,1
-2014,101094,101094,22-24 Blackwood Street,North Melbourne,1980,Unoccupied - Under Renovation,144.9554,-37.8016,2
+2014,101094,101094,22-24 Blackwood Street,North Melbourne,1980,Unoccupied,144.9554,-37.8016,2
 2014,558135,558135,186-192 Faraday Street,Carlton,2007,Residential,144.9682,-37.7985,4
 2014,108242,108242,130 Rathdowne Street,Carlton,,Residential,144.9709,-37.7966,2
 2014,109575,109575,116-118 Vale Street,East Melbourne,,Residential,144.9881,-37.8179,2
@@ -5228,7 +5228,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,620270,606476,31 Sturt Street,Southbank,2009,Public,144.9678,-37.8243,5
 2014,101189,101189,384-386 Bourke Street,Melbourne (CBD),1901,Retail,144.9622,-37.8142,3
 2014,570819,570819,33 Goldsbrough Walk,Kensington,,Residential,144.9193,-37.7972,2
-2014,512713,512713,249-263 Faraday Street,Carlton,1877,Unoccupied - Under Renovation,144.9653,-37.7987,2
+2014,512713,512713,249-263 Faraday Street,Carlton,1877,Unoccupied,144.9653,-37.7987,2
 2014,624216,624216,18 Wilson Mews,North Melbourne,2010,Residential,144.9409,-37.7932,3
 2014,103545,103545,45 Erskine Street,North Melbourne,,Residential,144.9433,-37.7949,1
 2014,618202,618202,34 Calwell Street,Kensington,1995,Residential,144.9264,-37.7887,2
@@ -5580,7 +5580,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,100001,100001,1-13 Abbotsford Street,West Melbourne (Residential),2012,Residential,144.9433,-37.8079,4
 2014,511130,511130,219 Elgin Street,Carlton,,Residential,144.967,-37.7973,2
 2014,104271,104271,184 George Street,East Melbourne,,Residential,144.9843,-37.8148,3
-2014,104232,104232,17-19 George Street,East Melbourne,,Unoccupied - Under Renovation,144.9895,-37.816,1
+2014,104232,104232,17-19 George Street,East Melbourne,,Unoccupied,144.9895,-37.816,1
 2014,569235,569235,148A Kensington Road,Kensington,,Residential,144.9201,-37.7982,2
 2014,106305,106305,369-391 Macaulay Road,Kensington,1963,Commercial,144.9341,-37.7952,2
 2014,104155,104155,132-134 Gatehouse Street,Parkville,,Residential,144.9548,-37.7941,2
@@ -5784,7 +5784,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,102255,102255,59 The Crescent,Kensington,,Residential,144.9186,-37.7939,3
 2014,103601,103601,189-195 Exhibition Street,Melbourne (CBD),1882,Public,144.9699,-37.8113,2
 2014,104170,104170,96 Gatehouse Street,Parkville,1887,Residential,144.954,-37.7947,2
-2014,100560,100560,1-5 Argyle Place East,Carlton,1971,Unoccupied - Under Renovation,144.9671,-37.8037,4
+2014,100560,100560,1-5 Argyle Place East,Carlton,1971,Unoccupied,144.9671,-37.8037,4
 2014,100537,100537,36 Arden Street,North Melbourne,,Residential,144.951,-37.8008,1
 2014,107602,107602,44 Pitt Street,Carlton,,Residential,144.9718,-37.7955,1
 2014,106322,106322,501-503 Macaulay Road,Kensington,1900,Retail,144.9294,-37.7945,1
@@ -5978,7 +5978,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,607958,607958,153-185 Langford Street,North Melbourne,,Public,144.9364,-37.7956,1
 2014,615185,615185,46-50 McCracken Street,Kensington,1900,Residential,144.9275,-37.7915,1
 2014,110702,110701,28 Corrs Lane,Melbourne (CBD),1885,Public,144.9682,-37.8108,2
-2014,603904,603904,384-386 Flinders Lane,Melbourne (CBD),1890,Unoccupied - Under Renovation,144.9612,-37.8179,4
+2014,603904,603904,384-386 Flinders Lane,Melbourne (CBD),1890,Unoccupied,144.9612,-37.8179,4
 2014,107825,107825,877-879 Punt Road,South Yarra,,Residential,144.9868,-37.8338,4
 2014,102690,102690,381-385 Drummond Street,Carlton,1920,Commercial,144.9688,-37.7967,2
 2014,108100,108100,432-438 Queen Street,Melbourne (CBD),1925,Retail,144.9583,-37.8084,2
@@ -6080,7 +6080,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,106999,106999,62-64 O'Connell Street,North Melbourne,1880,Unoccupied,144.9579,-37.8044,2
 2014,106401,106401,83 Manningham Street,Parkville,1976,Residential,144.9414,-37.7855,2
 2014,107373,107373,63 Park Street,South Yarra,,Residential,144.9817,-37.836,3
-2014,578325,573333,2 Swanston Street,Melbourne (CBD),2002,Unoccupied - Under Renovation,144.9705,-37.8178,5
+2014,578325,573333,2 Swanston Street,Melbourne (CBD),2002,Unoccupied,144.9705,-37.8178,5
 2014,615968,615968,11 Eastwood Street,Kensington,1900,Residential,144.9299,-37.7889,1
 2014,107459,107459,15 Peckville Street,North Melbourne,,Residential,144.9429,-37.7952,1
 2014,618229,618229,10-18 Drury Street,Kensington,1990,Residential,144.9253,-37.7902,2
@@ -6786,7 +6786,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,512139,512139,155 Errol Street,North Melbourne,,Residential,144.9497,-37.8013,2
 2014,104510,104510,45 Grey Street,East Melbourne,,Residential,144.9879,-37.8125,1
 2014,101842,101842,88 Chapman Street,North Melbourne,,Residential,144.9474,-37.7951,3
-2014,103179,103179,183-185 Elizabeth Street,Melbourne (CBD),1960,Unoccupied - Under Renovation,144.9628,-37.814,1
+2014,103179,103179,183-185 Elizabeth Street,Melbourne (CBD),1960,Unoccupied,144.9628,-37.814,1
 2014,615141,615141,27 Barnett Street,Kensington,1900,Residential,144.9327,-37.7911,1
 2014,615793,615793,29 Pridham Street,Kensington,1975,Residential,144.9312,-37.7896,1
 2014,102337,102337,37 Curzon Street,North Melbourne,,Residential,144.9475,-37.8042,2
@@ -6912,7 +6912,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,109753,109753,473-479 Victoria Street,West Melbourne (Residential),,Commercial,144.9439,-37.8049,1
 2014,110941,110941,Dock Link Road,West Melbourne (Industrial),,Public,144.9175,-37.8046,1
 2014,100910,100910,100 Bayswater Road,Kensington,,Residential,144.9215,-37.7938,2
-2014,617524,617524,62-72 Mark Street,North Melbourne,1950,Unoccupied - Under Renovation,144.9378,-37.7931,1
+2014,617524,617524,62-72 Mark Street,North Melbourne,1950,Unoccupied,144.9378,-37.7931,1
 2014,109101,109101,170 Station Street,Carlton,,Residential,144.975,-37.7934,4
 2014,580221,580221,59-63 Kensington Road,Kensington,,Residential,144.9254,-37.7957,5
 2014,104033,104033,26-30 Flinders Street,Melbourne (CBD),1900,Commercial,144.9736,-37.8153,1
@@ -7134,7 +7134,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,104902,104902,102-108 Hope Street,South Yarra,,Residential,144.9798,-37.8349,1
 2014,617431,617431,300 Macaulay Road,North Melbourne,2005,Commercial,144.9367,-37.7944,3
 2014,612647,612647,76-78 Altona Street,Kensington,2008,Residential,144.9259,-37.7971,1
-2014,101812,101812,51 Chapman Street,North Melbourne,1900,Unoccupied - Under Renovation,144.9486,-37.7969,2
+2014,101812,101812,51 Chapman Street,North Melbourne,1900,Unoccupied,144.9486,-37.7969,2
 2014,101412,101412,93 Canning Street,Carlton,,Residential,144.9727,-37.797,1
 2014,105281,105281,71 Keppel Street,Carlton,,Residential,144.9657,-37.7952,2
 2014,110005,110005,84 Wellington Parade,East Melbourne,1940,Retail,144.9872,-37.8163,2
@@ -7192,11 +7192,11 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,589467,589467,19-25 Wharf Road,Port Melbourne,2010,Commercial,144.9076,-37.8279,2
 2014,106273,106273,60-62 MacArthur Place North,Carlton,,Residential,144.9711,-37.798,2
 2014,518695,518695,77 Leopold Street,South Yarra,,Residential,144.9828,-37.836,2
-2014,107479,107479,57-61 Peel Street,West Melbourne (Residential),1865,Unoccupied - Under Renovation,144.9555,-37.8068,10
+2014,107479,107479,57-61 Peel Street,West Melbourne (Residential),1865,Unoccupied,144.9555,-37.8068,10
 2014,623697,102007,166 Gipps Street,East Melbourne,,Public,144.9842,-37.8123,4
 2014,623345,108266,11 Nicholson Street,Carlton,1880,Public,144.9716,-37.804,1
 2014,632307,109449,73-75 McClure Road,Kensington,2007,Commercial,144.9301,-37.7996,2
-2014,104086,104086,211-213 Franklin Street,Melbourne (CBD),1920,Unoccupied - Under Renovation,144.9578,-37.8097,1
+2014,104086,104086,211-213 Franklin Street,Melbourne (CBD),1920,Unoccupied,144.9578,-37.8097,1
 2014,106831,106831,5 Murphy Street,North Melbourne,,Residential,144.9513,-37.7977,2
 2014,103513,103513,60 Errol Street,North Melbourne,1883,Residential,144.9498,-37.8037,1
 2014,108721,108721,14 Shiel Street,North Melbourne,,Residential,144.9439,-37.7974,2
@@ -7227,7 +7227,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,107690,107690,26-34 Powlett Street,East Melbourne,1965,Commercial,144.9857,-37.8155,2
 2014,106136,106136,271-273 Lygon Street,Carlton,1870,Retail,144.9669,-37.7991,1
 2014,108297,108297,47 The Ridgeway,Kensington,,Residential,144.9252,-37.7949,1
-2014,612871,612871,499-623 Footscray Road,West Melbourne (Industrial),,Transport,144.9292,-37.8095,2
+2014,612871,612871,499-623 Footscray Road,West Melbourne (Industrial),,Public,144.9292,-37.8095,2
 2014,107060,107060,52 Ormond Street,Kensington,,Residential,144.9293,-37.7971,2
 2014,105562,105562,93-95 Leopold Street,South Yarra,,Residential,144.9829,-37.8355,1
 2014,103561,103561,70 Erskine Street,North Melbourne,,Residential,144.9429,-37.7944,2
@@ -7524,7 +7524,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,509280,509280,13-15 David Street,Carlton,1990,Unoccupied,144.9718,-37.797,2
 2014,103389,103389,276-318 Epsom Road,Kensington,,Public,144.9112,-37.7822,2
 2014,102021,102021,51-55 Clowes Street,South Yarra,,Residential,144.9861,-37.831,1
-2014,635138,635138,13 Heffernan Lane,Melbourne (CBD),,Unoccupied - Under Renovation,144.9666,-37.8118,1
+2014,635138,635138,13 Heffernan Lane,Melbourne (CBD),,Unoccupied,144.9666,-37.8118,1
 2014,102446,102446,19 Derby Street,Kensington,,Residential,144.9282,-37.7967,2
 2014,627695,627695,7 Foundry Way,Docklands,2011,Residential,144.9377,-37.8228,2
 2014,574497,574497,37 Lincoln Mews,Kensington,2002,Residential,144.9234,-37.7961,1
@@ -7770,7 +7770,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,104319,104319,63 Gipps Street,East Melbourne,,Residential,144.9885,-37.8136,2
 2014,110016,110016,10 Wellington Parade,East Melbourne,1988,Residential,144.9896,-37.8166,1
 2014,100663,100663,18-24 Baillie Street,North Melbourne,1940,Commercial,144.9472,-37.8012,5
-2014,102114,102114,538-544 Collins Street,Melbourne (CBD),1910,Unoccupied - Under Renovation,144.9562,-37.8181,2
+2014,102114,102114,538-544 Collins Street,Melbourne (CBD),1910,Unoccupied,144.9562,-37.8181,2
 2014,589461,624112,36 Sabre Drive,Port Melbourne,2009,Commercial,144.9059,-37.8275,2
 2014,617707,617707,2-10 Bendall Street,Kensington,1995,Residential,144.9243,-37.7887,22
 2014,108060,108060,19-35 Queen Street,Melbourne (CBD),1976,Commercial,144.9618,-37.8182,3
@@ -7937,7 +7937,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,105539,105539,27-31 Leopold Street,South Yarra,1940,Residential,144.9826,-37.837,2
 2014,104048,104048,620-628 Footscray Road,West Melbourne (Industrial),1970,Commercial,144.9158,-37.8059,2
 2014,109663,109663,162-166 Victoria Parade,East Melbourne,1970,Commercial,144.9774,-37.8089,3
-2014,608590,608590,101 Waterfront Way,Docklands,2009,Unoccupied - Under Renovation,144.9376,-37.8119,49
+2014,608590,608590,101 Waterfront Way,Docklands,2009,Unoccupied,144.9376,-37.8119,49
 2014,624495,624495,23-39 Therry Street,Melbourne (CBD),2011,Residential,144.961,-37.8071,2
 2014,107315,107315,205 Park Drive,Parkville,,Residential,144.9566,-37.793,1
 2014,614605,614605,43 McCracken Street,Kensington,1970,Residential,144.9281,-37.7913,2
@@ -8550,7 +8550,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,111511,111511,14 Birch Lane,Kensington,,Residential,144.9211,-37.7929,3
 2014,111434,111434,9-11 Drummond Place,Carlton,,Residential,144.9673,-37.8039,1
 2014,101914,101914,5 Chetwynd Street,West Melbourne (Residential),,Residential,144.9517,-37.8063,2
-2014,105039,105039,8-14 Howard Street,North Melbourne,1880,Unoccupied - Under Renovation,144.9542,-37.8051,3
+2014,105039,105039,8-14 Howard Street,North Melbourne,1880,Unoccupied,144.9542,-37.8051,3
 2014,109414,109414,144 Swanston Street,Melbourne (CBD),1985,Retail,144.9662,-37.8142,1
 2014,103827,103827,119 Flemington Road,North Melbourne,,Residential,144.9514,-37.7973,1
 2014,617607,617607,26 Alfred Street,North Melbourne,1900,Residential,144.9409,-37.7906,1
@@ -8636,7 +8636,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,627714,627714,34 South Wharf Drive,Docklands,2011,Residential,144.9392,-37.8226,2
 2014,100228,100228,236-248 Adderley Street,West Melbourne (Residential),1999,Residential,144.9445,-37.8079,2
 2014,100055,100055,395 Abbotsford Street,North Melbourne,,Residential,144.9462,-37.7973,2
-2014,108899,108899,660-676 Spencer Street,West Melbourne (Residential),1981,Unoccupied - Under Renovation,144.9445,-37.8058,3
+2014,108899,108899,660-676 Spencer Street,West Melbourne (Residential),1981,Unoccupied,144.9445,-37.8058,3
 2014,111498,111498,31-37 Ireland Street,West Melbourne (Residential),2002,Residential,144.9448,-37.8077,4
 2014,100618,100618,116-156 The Avenue,Parkville,1873,Commercial,144.9576,-37.7851,1
 2014,110428,110428,99-101 Dodds Street,Southbank,1960,Public,144.9676,-37.8284,15
@@ -8878,7 +8878,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,102438,102438,16 Degraves Street,Parkville,,Residential,144.9574,-37.7934,1
 2014,102556,102556,80 Domain Street,South Yarra,,Residential,144.9789,-37.8353,19
 2014,559301,559301,458-468 Lonsdale Street,Melbourne (CBD),2002,Public,144.9584,-37.8131,5
-2014,105760,105755,118-122 Lonsdale Street,Melbourne (CBD),1926,Unoccupied - Under Renovation,144.9682,-37.8099,2
+2014,105760,105755,118-122 Lonsdale Street,Melbourne (CBD),1926,Unoccupied,144.9682,-37.8099,2
 2014,108313,108313,50-52 The Ridgeway,Kensington,,Residential,144.9247,-37.7946,3
 2014,105689,105689,201 Lonsdale Street,Melbourne (CBD),1993,Commercial,144.9665,-37.8113,2
 2014,618131,618131,22 Maloney Street,Kensington,1994,Residential,144.9282,-37.7889,1
@@ -9229,7 +9229,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,103318,103318,326-332 Little Collins Street,Melbourne (CBD),1925,Commercial,144.9639,-37.8151,1
 2014,105799,105799,66 Lothian Street,North Melbourne,,Residential,144.945,-37.8016,2
 2014,103678,103678,111 Faraday Street,Carlton,,Residential,144.9708,-37.7993,2
-2014,104081,104081,97-111 Franklin Street,Melbourne (CBD),1939,Transport,144.9613,-37.8083,1
+2014,104081,104081,97-111 Franklin Street,Melbourne (CBD),1939,Public,144.9613,-37.8083,1
 2014,108334,108334,2 The Ridgeway,Kensington,,Residential,144.9264,-37.7936,1
 2014,108448,108448,7-13 Royal Parade,Parkville,,Residential,144.9574,-37.7967,1
 2014,615350,615350,41 Barnett Street,Kensington,1905,Residential,144.9325,-37.7923,1
@@ -9524,7 +9524,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,510730,510730,451 Dryburgh Street,North Melbourne,,Residential,144.9446,-37.7945,2
 2014,105907,105907,16-20 Little Cardigan Street,Carlton,1930,Residential,144.9654,-37.8043,1
 2014,101569,101569,36 Capel Street,West Melbourne (Residential),,Residential,144.9552,-37.8073,2
-2014,107489,107489,113-115 Peel Street,North Melbourne,1890,Unoccupied - Under Renovation,144.9557,-37.8053,2
+2014,107489,107489,113-115 Peel Street,North Melbourne,1890,Unoccupied,144.9557,-37.8053,2
 2014,104923,104923,28-30 Hope Street,South Yarra,,Residential,144.9794,-37.8365,3
 2014,109190,109190,144-180 Stockmans Way,Kensington,,Residential,144.9179,-37.7927,2
 2014,615320,615320,153 Rankins Road,Kensington,1920,Residential,144.9314,-37.7938,2
@@ -9656,7 +9656,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,101768,101768,22 Carroll Street,North Melbourne,,Residential,144.9461,-37.7956,2
 2014,108453,108453,29-31 Royal Parade,Parkville,1910,Commercial,144.9575,-37.7961,3
 2014,101223,101223,86 Bourke Street,Melbourne (CBD),1925,Retail,144.9707,-37.8118,2
-2014,103102,103102,171-175 Elgin Street,Carlton,1882,Unoccupied - Under Renovation,144.9687,-37.7975,2
+2014,103102,103102,171-175 Elgin Street,Carlton,1882,Unoccupied,144.9687,-37.7975,2
 2014,109696,109696,221 Victoria Street,West Melbourne (Residential),1865,Commercial,144.9541,-37.8059,20
 2014,102074,102074,167-173 Collins Street,Melbourne (CBD),1913,Commercial,144.9683,-37.8156,2
 2014,105576,105576,127-129 Leopold Street,South Yarra,,Residential,144.9831,-37.8347,4
@@ -9670,9 +9670,9 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,102524,102524,238-242 Domain Road,South Yarra,,Residential,144.986,-37.8343,5
 2014,110439,110437,100 Dorcas Street,Southbank,1986,Commercial,144.9663,-37.8307,2
 2014,100397,100397,45 Alexandra Avenue,South Yarra,1930,Residential,144.9874,-37.8305,1
-2014,618399,618398,22 Bellair Street,Kensington,,Unoccupied - Under Renovation,144.9285,-37.7893,3
+2014,618399,618398,22 Bellair Street,Kensington,,Unoccupied,144.9285,-37.7893,3
 2014,615999,615999,29-31 Eastwood Street,Kensington,1987,Residential,144.9301,-37.7895,2
-2014,560356,559378,16-18 Network Drive,Port Melbourne,2000,Unoccupied - Under Renovation,144.9018,-37.83,2
+2014,560356,559378,16-18 Network Drive,Port Melbourne,2000,Unoccupied,144.9018,-37.83,2
 2014,618000,618000,4 Export Lane,Kensington,1991,Residential,144.9253,-37.7896,2
 2014,109695,109695,217-219 Victoria Street,West Melbourne (Residential),,Residential,144.9542,-37.8059,3
 2014,624219,624219,12 Wilson Mews,North Melbourne,2010,Residential,144.9411,-37.7933,1
@@ -9956,7 +9956,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,559398,559398,5 Lincoln Mews,Kensington,2000,Residential,144.9224,-37.7966,1
 2014,107024,107024,49 Ormond Street,Kensington,,Residential,144.9294,-37.7977,1
 2014,105353,105353,591 King Street,West Melbourne (Residential),1870,Residential,144.9491,-37.8062,2
-2014,104187,104187,52 Gatehouse Street,Parkville,1878,Unoccupied - Under Renovation,144.9529,-37.7956,1
+2014,104187,104187,52 Gatehouse Street,Parkville,1878,Unoccupied,144.9529,-37.7956,1
 2014,624288,109449,10 Bakehouse Road,Kensington,2007,Unoccupied,144.9301,-37.7996,20
 2014,110433,110433,6-8 Dorcas Street,Southbank,2004,Residential,144.9702,-37.8298,1
 2014,101391,101391,12 Canning Street,North Melbourne,,Residential,144.944,-37.7957,1
@@ -10083,7 +10083,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,612528,109449,38-40 McLennan Drive,Kensington,2007,Commercial,144.9301,-37.7996,1
 2014,110988,110988,29-65 South Wharf Promenade,Southbank,1929,Public,144.9504,-37.8241,1
 2014,102903,102903,406-408 Dryburgh Street,North Melbourne,,Residential,144.9451,-37.7958,2
-2014,107370,107370,53-57 Park Street,South Yarra,1900,Unoccupied - Under Renovation,144.9817,-37.8362,2
+2014,107370,107370,53-57 Park Street,South Yarra,1900,Unoccupied,144.9817,-37.8362,2
 2014,597963,597963,66 Arden Street,North Melbourne,,Residential,144.9494,-37.8007,1
 2014,616922,616922,60 Alfred Street,North Melbourne,1920,Public,144.939,-37.7904,1
 2014,108842,108842,25-29 Southgate Street,Parkville,,Residential,144.9428,-37.7886,3
@@ -10330,7 +10330,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,104103,104103,34-38 Franklin Street,Melbourne (CBD),1853,Public,144.9616,-37.8075,1
 2014,108606,108606,9 St Andrews Street,North Melbourne,,Residential,144.9529,-37.8042,2
 2014,108805,108805,1 Sims Square,Kensington,,Residential,144.9215,-37.791,4
-2014,108537,108537,131-141 Russell Street,Melbourne (CBD),1978,Unoccupied - Under Renovation,144.9678,-37.8134,1
+2014,108537,108537,131-141 Russell Street,Melbourne (CBD),1978,Unoccupied,144.9678,-37.8134,1
 2014,109819,109819,380-382 Victoria Street,North Melbourne,1920,Retail,144.9534,-37.8053,1
 2014,106583,106583,51 Miller Street,West Melbourne (Residential),,Residential,144.946,-37.806,2
 2014,105715,105715,573-577 Lonsdale Street,Melbourne (CBD),1858,Unoccupied,144.9555,-37.8145,3
@@ -10385,7 +10385,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,103938,103938,187 Flinders Lane,Melbourne (CBD),1938,Commercial,144.9684,-37.8164,3
 2014,100362,100362,242-248 Albert Street,East Melbourne,,Residential,144.9829,-37.81,2
 2014,108188,108188,319-323 Rathdowne Street,Carlton,1865,Public,144.9699,-37.7992,11
-2014,105372,105372,310-316 King Street,Melbourne (CBD),1990,Unoccupied - Under Renovation,144.9545,-37.8128,1
+2014,105372,105372,310-316 King Street,Melbourne (CBD),1990,Unoccupied,144.9545,-37.8128,1
 2014,108552,108552,221-223 Russell Street,Melbourne (CBD),1882,Retail,144.9672,-37.8114,3
 2014,109541,109541,20-28 Trafalgar Place,North Melbourne,2009,Residential,144.9499,-37.8048,2
 2014,111052,111052,21 McNamara Mews,Kensington,,Residential,144.9193,-37.7956,8
@@ -10575,7 +10575,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,102675,102675,247-253 Drummond Street,Carlton,1992,Public,144.9679,-37.7998,3
 2014,102511,102511,209-211 Domain Road,South Yarra,1970,Residential,144.9838,-37.8348,2
 2014,104748,104748,118 Hawke Street,West Melbourne (Residential),,Residential,144.9445,-37.809,2
-2014,101125,101125,171 Bourke Street,Melbourne (CBD),1868,Unoccupied - Under Renovation,144.9685,-37.813,2
+2014,101125,101125,171 Bourke Street,Melbourne (CBD),1868,Unoccupied,144.9685,-37.813,2
 2014,615176,615176,42 McCracken Street,Kensington,1900,Residential,144.9275,-37.7913,1
 2014,640582,640582,20-22 Cook Street,Port Melbourne,2013,Unoccupied,144.9144,-37.8319,1
 2014,106830,106830,3 Murphy Street,North Melbourne,,Residential,144.9512,-37.7977,2
@@ -10896,7 +10896,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,106718,106718,32 Molesworth Street,North Melbourne,,Residential,144.9487,-37.7978,1
 2014,101988,101988,22 Church Street,Parkville,,Residential,144.9419,-37.788,1
 2014,100723,100723,8 Bangalore Street,Kensington,,Residential,144.9257,-37.7931,3
-2014,106051,106051,132 Little Lonsdale Street,Melbourne (CBD),1907,Unoccupied - Under Renovation,144.968,-37.8094,1
+2014,106051,106051,132 Little Lonsdale Street,Melbourne (CBD),1907,Unoccupied,144.968,-37.8094,1
 2014,107039,107039,81 Ormond Street,Kensington,,Residential,144.928,-37.7984,2
 2014,102041,102041,35 Cobden Street,North Melbourne,1870,Commercial,144.9571,-37.8044,3
 2014,110285,110285,2-40 Webb Lane,East Melbourne,,Residential,144.9893,-37.8183,3
@@ -10990,7 +10990,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,559379,559379,8-12 Anderson Walk,Kensington,2003,Residential,144.9203,-37.7968,3
 2014,106223,106223,264-266 Lygon Street,Carlton,1900,Public,144.9672,-37.801,2
 2014,110064,110064,46 Westbourne Road,Kensington,,Residential,144.9233,-37.7922,6
-2014,105878,105878,242-244 Little Bourke Street,Melbourne (CBD),1987,Unoccupied - Under Renovation,144.9656,-37.8121,1
+2014,105878,105878,242-244 Little Bourke Street,Melbourne (CBD),1987,Unoccupied,144.9656,-37.8121,1
 2014,101601,101601,113 Cardigan Street,Carlton,1930,Unoccupied,144.9646,-37.804,2
 2014,107269,107269,85 Park Drive,Parkville,1885,Residential,144.9541,-37.7956,2
 2014,101764,101764,30 Carroll Street,North Melbourne,,Residential,144.9461,-37.7954,1
@@ -11243,7 +11243,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,100819,100819,13-19 Barrett Street,Kensington,1994,Commercial,144.935,-37.7975,1
 2014,596446,111302,2 Southgate Avenue,Southbank,,Public,144.9647,-37.8204,2
 2014,103788,103788,70 Fitzgibbon Street,Parkville,,Residential,144.9572,-37.7947,3
-2014,570824,570824,520-528 Victoria Street,North Melbourne,2006,Unoccupied - Under Renovation,144.9487,-37.8047,1
+2014,570824,570824,520-528 Victoria Street,North Melbourne,2006,Unoccupied,144.9487,-37.8047,1
 2014,109453,109453,94 Tennyson Street,Kensington,,Residential,144.928,-37.7989,2
 2014,107390,107390,104 Park Street,South Yarra,,Residential,144.9826,-37.8351,1
 2014,615025,615025,38 Collett Street,Kensington,1900,Residential,144.9332,-37.7906,2
@@ -11449,7 +11449,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,616147,616147,16-18 Scarborough Place,Kensington,,Unoccupied,144.935,-37.7911,4
 2014,105319,105319,295-305 King Street,Melbourne (CBD),1919,Public,144.954,-37.8134,2
 2014,102327,102327,1 Curzon Street,West Melbourne (Residential),,Residential,144.9472,-37.8065,1
-2014,617560,617560,211 Boundary Road,North Melbourne,1940,Transport,144.9393,-37.7883,1
+2014,617560,617560,211 Boundary Road,North Melbourne,1940,Public,144.9393,-37.7883,1
 2014,615616,615616,8 Collett Street,Kensington,1900,Residential,144.9335,-37.7891,1
 2014,558586,558586,46-48 Newton Street,Kensington,2002,Residential,144.9228,-37.7962,2
 2014,104485,104485,16 Grattan Street,Carlton,,Residential,144.9692,-37.8007,2
@@ -11564,7 +11564,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,617542,617542,4 Alfred Street,North Melbourne,1900,Residential,144.942,-37.7907,2
 2014,568742,568742,5 Rogan Lane,Kensington,,Residential,144.9234,-37.792,2
 2014,107881,107881,329 Queensberry Street,North Melbourne,1901,Commercial,144.9571,-37.8041,2
-2014,101093,101093,26-28 Blackwood Street,North Melbourne,,Unoccupied - Under Renovation,144.9555,-37.8015,1
+2014,101093,101093,26-28 Blackwood Street,North Melbourne,,Unoccupied,144.9555,-37.8015,1
 2014,108302,108302,57 The Ridgeway,Kensington,,Residential,144.9248,-37.7951,1
 2014,615668,615668,40-42 Smith Street,Kensington,,Residential,144.9335,-37.7918,1
 2014,558477,558477,60-64 Domain Street,South Yarra,1930,Residential,144.9788,-37.8358,1
@@ -11772,7 +11772,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,627677,627677,9A McConnell Street,Kensington,1900,Residential,144.9288,-37.7903,2
 2014,103361,103361,4-6 Elm Tree Place,Carlton,,Residential,144.9683,-37.8054,1
 2014,104420,104420,26 Gower Street,Kensington,,Residential,144.9282,-37.7951,9
-2014,104021,104021,142-148 Flinders Street,Melbourne (CBD),2008,Unoccupied - Under Renovation,144.9701,-37.8164,2
+2014,104021,104021,142-148 Flinders Street,Melbourne (CBD),2008,Unoccupied,144.9701,-37.8164,2
 2014,108191,108191,343 Rathdowne Street,Carlton,,Residential,144.97,-37.7984,2
 2014,104185,104185,58 Gatehouse Street,Parkville,,Residential,144.9531,-37.7954,1
 2014,104607,104607,15 Hardiman Street,Kensington,,Residential,144.9321,-37.7953,1
@@ -11891,7 +11891,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,606559,606559,32 Cade Way,Parkville,2006,Residential,144.9408,-37.7775,3
 2014,560799,560799,6-8 Garden Avenue,East Melbourne,,Residential,144.989,-37.8164,1
 2014,607956,607956,1-61 Langford Street,North Melbourne,,Public,144.9369,-37.7987,2
-2014,618400,618398,30-34 Bellair Street,Kensington,1901,Unoccupied - Under Renovation,144.9285,-37.7893,2
+2014,618400,618398,30-34 Bellair Street,Kensington,1901,Unoccupied,144.9285,-37.7893,2
 2014,110774,110774,6 Hutton Place,Kensington,,Residential,144.9212,-37.7922,6
 2014,108112,108112,400-404 Little Collins Street,Melbourne (CBD),1913,Residential,144.9614,-37.8158,2
 2014,107224,107224,52-54 Palmerston Street,Carlton,1874,Residential,144.9734,-37.7964,1
@@ -11995,7 +11995,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,109977,109977,39 Wellington Parade South,East Melbourne,,Residential,144.9887,-37.8177,1
 2014,102408,102408,6 Darling Street,East Melbourne,,Residential,144.99,-37.8133,1
 2014,109565,109565,15 Union Street,North Melbourne,,Residential,144.9466,-37.8031,2
-2014,108973,108973,85-161 Spencer Street,Docklands,2006,Transport,144.9522,-37.8176,1
+2014,108973,108973,85-161 Spencer Street,Docklands,2006,Public,144.9522,-37.8176,1
 2014,614680,614680,12 McConnell Street,Kensington,1900,Residential,144.9283,-37.7901,1
 2014,615147,615147,23 Barnett Street,Kensington,1900,Residential,144.9327,-37.791,2
 2014,100913,100913,94A Bayswater Road,Kensington,1991,Residential,144.922,-37.7941,2
@@ -12022,7 +12022,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,103165,103165,1-5 Elizabeth Street,Melbourne (CBD),1956,Commercial,144.9646,-37.8181,1
 2014,104876,104876,21 Hope Street,South Yarra,,Residential,144.9789,-37.8367,2
 2014,615196,615196,2 Hopetoun Street,Kensington,1915,Residential,144.9272,-37.7916,1
-2014,618523,618523,205 Bellair Street,Kensington,1900,Transport,144.9305,-37.7937,1
+2014,618523,618523,205 Bellair Street,Kensington,1900,Public,144.9305,-37.7937,1
 2014,599873,599873,15 Little Lothian Street South,North Melbourne,,Residential,144.9447,-37.8036,1
 2014,614587,614587,1 McCracken Street,Kensington,1900,Residential,144.928,-37.7899,2
 2014,100788,100788,112-114 Barkly Street,Carlton,1906,Residential,144.9714,-37.7997,3
@@ -12101,7 +12101,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,616002,616002,488 Macaulay Road,Kensington,1960,Commercial,144.9298,-37.7941,3
 2014,106900,106900,88-90 Newman Street,Kensington,1998,Residential,144.9211,-37.7948,1
 2014,105631,105631,84-88 Leveson Street,North Melbourne,1920,Commercial,144.9519,-37.8022,2
-2014,109309,109309,319-323 Swanston Street,Melbourne (CBD),1870,Unoccupied - Under Renovation,144.964,-37.8108,3
+2014,109309,109309,319-323 Swanston Street,Melbourne (CBD),1870,Unoccupied,144.964,-37.8108,3
 2014,102495,102495,119-123 Domain Road,South Yarra,,Residential,144.98,-37.8341,1
 2014,106551,106551,6 Melrose Street,North Melbourne,,Residential,144.942,-37.7954,1
 2014,614956,614956,38 Barnett Street,Kensington,1900,Residential,144.932,-37.792,1
@@ -12120,7 +12120,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,101863,101863,8 Chapman Street,North Melbourne,,Residential,144.9508,-37.7979,2
 2014,110532,110532,99-111 Lorimer Street,Docklands,2001,Retail,144.9391,-37.8243,3
 2014,104000,104000,400-424 Flinders Street,Melbourne (CBD),1876,Public,144.9604,-37.819,1
-2014,102201,102201,366-384 Queensberry Street,North Melbourne,1910,Unoccupied - Under Renovation,144.955,-37.8032,2
+2014,102201,102201,366-384 Queensberry Street,North Melbourne,1910,Unoccupied,144.955,-37.8032,2
 2014,100830,100830,55-61 Barry Street,Carlton,1986,Commercial,144.9594,-37.8028,2
 2014,103753,103753,18 Faraday Street,Carlton,,Residential,144.9739,-37.7992,1
 2014,100295,100295,9 Albermarle Street,Kensington,,Residential,144.933,-37.7962,2
@@ -12185,7 +12185,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,100972,100972,294 Bellair Street,Kensington,,Residential,144.9312,-37.7975,1
 2014,103542,103542,35 Erskine Street,North Melbourne,,Residential,144.9436,-37.795,1
 2014,109490,109490,8 Tennyson Street,Kensington,,Residential,144.9308,-37.7972,2
-2014,103497,103497,122-124 Errol Street,North Melbourne,1980,Unoccupied - Under Renovation,144.9501,-37.802,2
+2014,103497,103497,122-124 Errol Street,North Melbourne,1980,Unoccupied,144.9501,-37.802,2
 2014,108147,108147,1-23 Rathdowne Street,Carlton,1987,Unoccupied,144.9684,-37.8068,3
 2014,105383,105383,212-224 King Street,Melbourne (CBD),1956,Public,144.9554,-37.815,2
 2014,110700,104369,15 Gisborne Street,East Melbourne,1845,Commercial,144.975,-37.8099,1
@@ -12195,7 +12195,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,618028,618028,11 Bendall Street,Kensington,1989,Residential,144.9245,-37.7892,2
 2014,103741,103741,70-76 Faraday Street,Carlton,1990,Residential,144.9719,-37.7989,2
 2014,559394,559394,10 Lincoln Mews,Kensington,2000,Residential,144.9222,-37.7968,2
-2014,109299,109299,271 Swanston Street,Melbourne (CBD),1901,Unoccupied - Under Renovation,144.9646,-37.8119,1
+2014,109299,109299,271 Swanston Street,Melbourne (CBD),1901,Unoccupied,144.9646,-37.8119,1
 2014,102801,102801,133 Dryburgh Street,North Melbourne,1870,Unoccupied,144.9431,-37.8034,2
 2014,107861,107861,19 Queensberry Street,Carlton,,Residential,144.9685,-37.8055,2
 2014,105368,105368,346-352 King Street,West Melbourne (Residential),1981,Commercial,144.9525,-37.8087,2
@@ -12732,7 +12732,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,110985,110985,55 Cakebread Mews,Kensington,,Residential,144.9189,-37.7934,1
 2014,110210,110210,47 Wolseley Parade,Kensington,,Residential,144.9287,-37.797,1
 2014,103420,103420,83 Errol Street,North Melbourne,1960,Retail,144.9493,-37.8032,3
-2014,107193,107193,199-205 Palmerston Street,Carlton,1980,Unoccupied - Under Renovation,144.9683,-37.7963,2
+2014,107193,107193,199-205 Palmerston Street,Carlton,1980,Unoccupied,144.9683,-37.7963,2
 2014,633945,633945,20 Scotia Street,North Melbourne,2012,Residential,144.9488,-37.8014,1
 2014,109455,109455,90 Tennyson Street,Kensington,,Residential,144.9281,-37.7989,1
 2014,110207,110207,41 Wolseley Parade,Kensington,,Residential,144.9289,-37.7968,2
@@ -12834,7 +12834,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,111525,111525,120 Berkeley Street,Carlton,2008,Residential,144.959,-37.8027,1
 2014,104649,104649,12 Hardiman Street,Kensington,,Residential,144.932,-37.7958,2
 2014,104911,104911,74-76 Hope Street,South Yarra,,Residential,144.9796,-37.8356,1
-2014,517641,105220,Childers Street,Kensington,,Unoccupied - Under Renovation,144.9237,-37.7977,1
+2014,517641,105220,Childers Street,Kensington,,Unoccupied,144.9237,-37.7977,1
 2014,109745,109745,447 Victoria Street,West Melbourne (Residential),,Residential,144.9453,-37.805,4
 2014,575822,575822,17-23 Queens Bridge Street,Southbank,1987,Unoccupied,144.9616,-37.8224,2
 2014,608435,608435,13 Carrangall Place,Parkville,2006,Residential,144.9408,-37.7795,2
@@ -12952,7 +12952,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,599872,599872,14A Lothian Street,North Melbourne,,Residential,144.9446,-37.8036,5
 2014,560266,560266,58-70 Lorimer Street,Docklands,2003,Public,144.9463,-37.8249,2
 2014,102504,102504,175-177 Domain Road,South Yarra,1990,Public,144.9819,-37.8343,2
-2014,101784,101784,18 Celestial Avenue,Melbourne (CBD),1895,Unoccupied - Under Renovation,144.9664,-37.8118,2
+2014,101784,101784,18 Celestial Avenue,Melbourne (CBD),1895,Unoccupied,144.9664,-37.8118,2
 2014,104251,104251,125-127 George Street,East Melbourne,,Residential,144.9863,-37.8157,3
 2014,108094,108094,272-282 Queen Street,Melbourne (CBD),1945,Commercial,144.9598,-37.8121,4
 2014,110338,110338,63-73 Southbank Boulevard,Southbank,1989,Commercial,144.9655,-37.8229,1
@@ -13041,7 +13041,7 @@ Census year,Property ID,Base property ID,Street address,CLUE small area,Construc
 2014,110670,110670,363-367 Little Collins Street,Melbourne (CBD),1982,Commercial,144.9628,-37.8158,1
 2014,614921,614921,51-53 Collett Street,Kensington,1900,Residential,144.9335,-37.7912,3
 2014,637430,637430,124 Lorimer Street,Docklands,2012,Residential,144.9398,-37.8233,5
-2014,102766,102766,100-108 Drummond Street,Carlton,1880,Unoccupied - Under Renovation,144.9682,-37.8044,2
+2014,102766,102766,100-108 Drummond Street,Carlton,1880,Unoccupied,144.9682,-37.8044,2
 2014,589079,110597,37 Bayside Avenue,Port Melbourne,,Retail,144.9188,-37.8223,1
 2014,615735,615735,41 Robertson Street,Kensington,1900,Residential,144.9335,-37.7929,1
 2014,107940,107940,649 Queensberry Street,North Melbourne,,Residential,144.9459,-37.8029,1
