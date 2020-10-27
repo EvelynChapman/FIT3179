@@ -28,7 +28,7 @@
   },
   "transform": [
     {
-      "filter": "Usage_Type == null || datum.Predominant_space_use == Usage_Type"
+      "filter": "Usage_Type == null || datum['Predominant space use'] == Usage_Type"
     }
   ],
   "layer": [
