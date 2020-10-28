@@ -4,7 +4,7 @@
   "height": 400,
   "title": "Heatmap of Melbourne City Buildings by usage",
   "data": {
-    "url": "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Buildings%202014.csv"
+    "url": "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Assignment2/Buildings%202014.csv"
   },
   "params": [
     {
