@@ -1,0 +1,36 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 500,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Buildings%202014.csv"
+  },
+  "mark": "bar",
+  "transform": [
+    {
+      "filter": "datum['Construction year'] != 0 && datum['Construction year'] != 1900"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "bin": {"step": 10},
+      "field": "Construction year",
+      "type": "quantitative"
+    },
+    "y": {"aggregate": "count", "field": "Predominant space use"},
+    "color": {
+      "field": "Predominant space use",
+      "scale": {
+        "range": [
+          "#66c2a5",
+          "#fc8d62",
+          "#e78ac3",
+          "#8da0cb",
+          "#a6d854",
+          "#ffd92f"
+        ]
+      }
+    }
+  },
+  "config": {"mark": {"invalid": null}}
+}

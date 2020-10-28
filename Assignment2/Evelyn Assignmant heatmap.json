@@ -1,0 +1,61 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 500,
+  "height": 400,
+  "title": "Heatmap of Melbourne City Buildings by usage",
+  "data": {
+    "url": "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Buildings%202014.csv"
+  },
+  "params": [
+    {
+      "name": "Usage",
+      "bind": {
+        "input": "select",
+        "options": ["Show all", "Public", "Residential", "Retail", "Commercial"]
+      }
+    }
+  ],
+  "encoding": {
+    "x": {
+      "bin": {"step": 0.005, "extent": [144.9, 145]},
+      "field": "x coordinate",
+      "type": "quantitative",
+      "axis": {"title": "latitude"}
+    },
+    "y": {
+      "bin": {"step": 0.005, "extent": [-37.85, -37.775]},
+      "field": "y coordinate",
+      "type": "quantitative",
+      "axis": {"title": "longitude"}
+    }
+  },
+  "transform": [
+    {
+      "filter": "Usage ==  'Show all' || Usage ==  null || datum['Predominant space use'] == Usage"
+    }
+  ],
+  "layer": [
+    {
+      "mark": "rect",
+      "encoding": {
+        "color": {
+          "aggregate": "sum",
+          "field": "floors",
+          "type": "quantitative",
+          "scale": {"type": "sqrt", "domain": [0, 1200]},
+          "legend": {"title": "Floors of usege"}
+        },
+        "tooltip": [
+          {"aggregate": "sum", "field": "floors", "type": "quantitative"},
+          {"aggregate": "count"},
+          {"aggregate": "sum", "field": "floors", "type": "quantitative"}
+        ]
+      }
+    },
+    {
+      "mark": "text",
+      "encoding": {"text": {"aggregate": "count", "type": "quantitative"}}
+    }
+  ],
+  "config": {"view": {"stroke": "transparent"}}
+}
