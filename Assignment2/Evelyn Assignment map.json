@@ -7,14 +7,14 @@
   "layer": [
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Municipal%20boundary.json",
+        "url": "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Assignment2/Municipal%20boundary.json",
         "format": {"type": "topojson", "feature": "Municipal boundary"}
       },
       "mark": {"type": "geoshape", "fill": "#666666", "stroke": "black"}
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/buildings.json",
+        "url": "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Assignment2/buildings.json",
         "format": {"type": "topojson", "feature": "Building outlines 2014"}
       },
       "transform": [
@@ -23,7 +23,7 @@
           "lookup": "properties.mccid_int",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Buildings%202014.csv"
+              "url": "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Assignment2/Buildings%202014.csv"
             },
             "key": "Property ID",
             "fields": ["Predominant space use", "Street address"]
