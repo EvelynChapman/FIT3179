@@ -8,7 +8,7 @@
   "mark": "bar",
   "transform": [
     {
-      "filter": "datum['Construction year'] != 0 && datum['Construction year'] != 1900"
+      "filter": "datum['Construction year'] != 0 && datum['Construction year'] != 1900 && datum['Construction year'] != 2000"
     }
   ],
   "encoding": {
