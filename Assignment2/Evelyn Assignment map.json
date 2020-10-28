@@ -7,8 +7,8 @@
   "layer": [
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Assignment2/Municipal%20boundary.json",
-        "format": {"type": "topojson", "feature": "Municipal boundary"}
+        "url": "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Assignment2/Melbourne%20Suburbs.json",
+        "format": {"type": "topojson", "feature": "Postcodes (1)"}
       },
       "mark": {"type": "geoshape", "fill": "#666666", "stroke": "black"}
     },
