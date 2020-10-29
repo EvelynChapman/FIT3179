@@ -16,8 +16,10 @@
       "bin": {"step": 10},
       "field": "Construction year",
       "type": "quantitative"
+      "axis": {"title": "Decade of construction"}
     },
     "y": {"aggregate": "count", "field": "Predominant space use"},
+    "axis": {"title": "Number of remaining buildings"}
     "color": {
       "field": "Predominant space use",
       "scale": {
