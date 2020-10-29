@@ -1,0 +1,30 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Assignment2/Buildings%202014.csv"
+  },
+  "mark": "line",
+  "width": 350,
+  "height": 250,
+  "selection": {
+    "continent_highlight": {
+      "type": "multi",
+      "fields": ["CLUE small area"],
+      "bind": "legend"
+    }
+  },
+  "encoding": {
+    "y": {"aggregate": "mean", "field": "floors", "type": "quantitative"},
+    "x": {
+      "bin": {"step": 25},
+      "field": "Construction year",
+      "type": "quantitative"
+    },
+    "color": {"field": "CLUE small area", "type": "nominal"},
+    "opacity": {
+      "condition": {"selection": "continent_highlight", "value": 0.9},
+      "value": 0.2
+    }
+  },
+  "config": {}
+}
