@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+  <!-- Import vega-embed -->
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- custom style -->
+  <style>
+    *{
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    h1{
+      font-weight: 900;
+      text-align: center;
+    }
+    h2 {text-align: center;}
+     body{
+       background-color: lightgray;
+       text-align: center;
+     }
+     .page{
+       width: 1300px;    
+       background-color: white;   
+       margin: auto;
+       padding: 50px;
+       padding-top: 35px;
+    }
+    .vis-container{
+      width: 100%;
+    }
+    .description h2, h1{
+      margin-top:0px;
+    }
+    .description-right {
+      padding-left: 20px;
+    }
+    .description-left{
+      padding-right: 20px;
+    }
+    .pure-g{
+      margin-bottom: 25px;
+    }
+    .small-font{
+        font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<body>
+
+ <div class="page">
+
+   <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h1 >Buildings of the City of Melbourne</h1>
+        <p>The City of Melbourne is a council area in the heart of Greater Melbourne, it is the capital of the state Victoria, Australia. It is 
+          comprised of a number of smaller areas including the CBD, Port Melbourne, Carlton, and many more. I have devided the uses of buildings
+          into five catagories, Commercial, Public, Resedental, Reatal, and Unoccupied. From the map bellow left we can get an idea of how Melbournes
+          suburbs differ in usage, with Central Melboure being a mix of everything but resedental, Port Melbourne to the south west being a comercal hub,
+          and north western suburb of Ascot Vale being a resedental area.
+        </p>
+      </div>
+    </div>
+  <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+        <div class="pure-u-2-5">
+          <div class="description description-left">
+            <h2>A Historic City</h2>
+            <p>The area of Melbourne was first settled in 1835 as modern Victroras first settlement becoming a town in 1842 and
+            a city can capital of the Victoria colony in 1847. In the chart bellow we can see the distribution of age of buldings in melbourne as they remained in 2014, and we can 
+            see the limited number of buidings remain from this period with more apearing as the city grew into the 1870's.</p>
+            <p>Other patterns wecan pick up on include the drop is budings in the 1940, during the period of WWII period. a 
+            final observation is how the distribution of resedental buidling ages changes while most other types remain more 
+            consistant, likley due to single resedent houses being more likley to be redeveloped</p>
+          
+            <div id="AgeGraph" class="vis-container"></div>
+          </div>
+        </div>
+        <div class="pure-u-3-5" style ="float: right;">
+          <div id="CityMap" class="vis-container" ></div>
+        </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-3-5">
+        <div id="BinChart1" class="vis-container"></div>
+        <p>Map dataset: https://data.melbourne.vic.gov.au/Property/Building-outlines-2014/qe9w-cym8 </p>
+        <p>Housing dataset: https://www.kaggle.com/rubix1/city-of-melbourne-buildingdwellingbusinesses</p>
+      </div>
+      <div class="pure-u-2-5">
+        <div class="description description-left">
+          <h2>Patterns in usage</h2>
+          <p>To the left is a heat / bin map of Melbourne City showing how different areas of the city are used. We can once again 
+            see the accumulation of resedental buildings in the north west of the city with its complete absance from the south west 
+            and how it is dominated by comercal buidlings </p>
+            <h2>A Rising City</h2>
+          <p>the graph bellow graphs the average height of buidlings built within a number of 25 year periods. looking at specific suburbs  
+            such as the CBD and the recently devloped Southbank we see a consistant rise in the average height, whereas other more resedental areas
+            such as North Melbourne reamian cosistnat at around a 2 story average. 
+          </p>
+          <div id="heightGraph" class="vis-container"></div>
+        </div>
+      </div>
+  </div>
+  <!-- end pure grid group -->
+
+<script type="text/javascript">
+  
+  var vis1 = "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Assignment2/Evelyn%20Assignment%20map.json";
+  
+  
+  
+  var vis2 = "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Assignment2/Evelyn%20Assignmant%20heatmap.json";
+  
+  vegaEmbed('#BinChart1', vis2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#CityMap', vis1).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  var vis3 = "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Assignment2/Evelyn%20Assignmant%20build%20years.json";
+  
+  vegaEmbed('#AgeGraph', vis3).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  var vis4 = "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Assignment2/Evelyn%20Assignment%20Line.json";
+  
+  vegaEmbed('#heightGraph', vis4).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+
+</script>
+
+</body>
+</html>
