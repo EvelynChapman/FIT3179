@@ -18,8 +18,10 @@
       "type": "quantitative",
       "axis": {"title": "Decade of construction"}
     },
-    "y": {"aggregate": "count", "field": "Predominant space use"},
-    "axis": {"title": "Number of remaining buildings"},
+    "y": {"aggregate": "count", "field": "Predominant space use",
+    "axis": {"title": "Number of remaining buildings"}
+    },
+    
     "color": {
       "field": "Predominant space use",
       "scale": {
@@ -31,8 +33,14 @@
           "#a6d854",
           "#ffd92f"
         ]
-      }
-    }
+      },
+        "legend": {"title": "Space Use"}
+      
+    },
+    
+        "tooltip": [
+          {"field": "Predominant space use", "label": "Space Use"},
+          {"aggregate": "count"}]
   },
   "config": {"mark": {"invalid": null}}
 }
