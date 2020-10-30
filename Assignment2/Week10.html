@@ -28,7 +28,7 @@
        text-align: center;
      }
      .page{
-       width: 1200px;    
+       width: 1300px;    
        background-color: white;   
        margin: auto;
        padding: 50px;
@@ -76,7 +76,7 @@
 
     <!-- pure grid group -->
     <div class="pure-g">
-        <div class="pure-u-1-2">
+        <div class="pure-u-2-5">
           <div class="description description-left">
             <h2>A Historic City</h2>
             <p>The area of Melbourne was first settled in 1835 as modern Victroras first settlement becoming a town in 1842 and
@@ -89,21 +89,28 @@
             <div id="AgeGraph" class="vis-container"></div>
           </div>
         </div>
-        <div class="pure-u-1-2">
-          <div id="CityMap" class="vis-container"></div>
+        <div class="pure-u-3-5" style ="float: right;">
+          <div id="CityMap" class="vis-container" ></div>
         </div>
     </div>
     <!-- end pure grid group -->
 
     <!-- pure grid group -->
     <div class="pure-g">
-      <div class="pure-u-2-3">
+      <div class="pure-u-3-5">
         <div id="BinChart1" class="vis-container"></div>
+        <p>Map dataset: https://data.melbourne.vic.gov.au/Property/Building-outlines-2014/qe9w-cym8 </p>
+        <p>Housing dataset: https://www.kaggle.com/rubix1/city-of-melbourne-buildingdwellingbusinesses</p>
       </div>
-      <div class="pure-u-1-3">
+      <div class="pure-u-2-5">
         <div class="description description-left">
-          <h2>This is the first section</h2>
-          <p>The first column is used for description while the next two columns are merged and used for visualisation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. </p>
+          <h2>Patterns in usage</h2>
+          <p>To the left is a heat / bin map of Melbourne City showing how different areas of the city are used. We can once again 
+            see the accumulation of resedental buildings in the north west of the city with its complete absance from the south west 
+            and how it is dominated by comercal buidlings </p>
+            <h2>A Rising City</h2>
+          <p>the graph bellow graphs the average height of buidlings built within a number of 25 year periods</p>
+          <div id="heightGraph" class="vis-container"></div>
         </div>
       </div>
   </div>
@@ -113,9 +120,7 @@
   
   var vis1 = "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Assignment2/Evelyn%20Assignment%20map.json";
   
-  vegaEmbed('#CityMap', vis1).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
+  
   
   var vis2 = "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Assignment2/Evelyn%20Assignmant%20heatmap.json";
   
@@ -123,9 +128,19 @@
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
+  vegaEmbed('#CityMap', vis1).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
   var vis3 = "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Assignment2/Evelyn%20Assignmant%20build%20years.json";
   
   vegaEmbed('#AgeGraph', vis3).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  var vis4 = "https://raw.githubusercontent.com/EvelynChapman/FIT3179/main/Assignment2/Evelyn%20Assignment%20Line.json";
+  
+  vegaEmbed('#heightGraph', vis4).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
